@@ -1,0 +1,214 @@
+/* -----VARIABLES------ ---------------------------------*/
+:root {
+  --dark-color: #211d1d;
+  --blue-light: #1f9cc9;
+  --blue-solid: #116696;
+  --fondo-solid: #c1bcbc;
+  --white-e: #eeeeee;
+  --white-color: white;
+  /* Tipografia---- */
+  --normal: 12px;
+  /* Espaciado-- */
+  --space: 10px;
+  /* Box Shadow------- */
+  --box: 0 0 8px #c1bcbc;
+}
+/* -----VARIABLES------ ---------------------------------*/
+/* Generales------------------ */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  font-size: var(--normal);
+  font-family: "Open Sans", sans-serif;
+}
+/* NAV------------------------- */
+nav {
+  display: flex;
+  background-color: var(--dark-color);
+  padding: var(--space);
+  color: var(--white-color);
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  padding-left: 20px;
+  list-style: none;
+}
+
+nav li a {
+  color: var(--white-e);
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: var(--white-color);
+}
+/* Main section---------------------- */
+
+.main_section {
+  padding: 15%;
+  text-align: center;
+}
+
+.products {
+  background-image: url("../images/sombra.svg");
+  max-height: 50px;
+  background-size: cover;
+  background-position: center top;
+  padding: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.product {
+  padding: var(--space);
+  margin-top: -21rem;
+  width: 15rem;
+  height: 20rem;
+}
+
+.product .content {
+  background-color: var(--white-color);
+  padding: var(--space);
+  box-shadow: var(--box);
+  border-radius: 18px;
+}
+
+.img_content {
+  text-align: center;
+}
+.img_content img {
+  width: 60px;
+  height: 60px;
+}
+
+.main_buttom {
+  background-color: var(--blue-light);
+  width: 100%;
+  padding: var(--space);
+  font-size: var(--normal);
+  color: var(--white-color);
+  border: 0;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.main_buttom:hover {
+  background-color: var(--blue-solid);
+}
+
+/* -------Features------ */
+.features {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 4rem;
+}
+.img-features {
+  text-align: center;
+}
+.img-features img {
+  width: 10rem;
+  height: 10rem;
+}
+
+.features-content {
+  text-align: justify;
+  font-size: var(--normal);
+  padding: 10%;
+}
+.features-content h3 {
+  text-align: center;
+}
+
+/* Main section-------------------- */
+
+.mentions {
+  padding: 60px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.mention-content {
+  margin: -3rem;
+  box-shadow: var(--box);
+  width: 23rem;
+}
+.img-mentions {
+  text-align: center;
+  object-fit: cover;
+}
+.img-mentions img {
+  width: 23rem;
+  height: 15rem;
+}
+.mention-title {
+  text-align: center;
+  margin-top: 0;
+}
+.mention-content:hover {
+  background: #fff;
+  color: var(--blue-solid);
+}
+/* -------Footer----- */
+
+footer {
+  background: var(--dark-color);
+  padding-bottom: 0.1px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.contact-us {
+  width: 40%;
+  color: #fff;
+}
+
+.brand {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.brand + p {
+  font-weight: 500;
+}
+
+.social-media {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-media-icon {
+  display: inline-block;
+  margin-left: 20px;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+}
+
+.social-media-icon:hover {
+  background: #fff;
+  color: var(--blue-light);
+}
+
+.social-media-icon i {
+  font-size: 35px;
+  line-height: 60px;
+}
