@@ -13,6 +13,7 @@
   /* Box Shadow------- */
   --box: 0 0 8px #c1bcbc;
 }
+
 /* -----VARIABLES------ ---------------------------------*/
 /* Generales------------------ */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
@@ -24,6 +25,7 @@ body {
   font-size: var(--normal);
   font-family: "Open Sans", sans-serif;
 }
+
 /* NAV------------------------- */
 nav {
   display: flex;
@@ -51,6 +53,7 @@ nav li a {
 nav li a:hover {
   color: var(--white-color);
 }
+
 /* Main section---------------------- */
 
 .main_section {
@@ -85,6 +88,7 @@ nav li a:hover {
 .img_content {
   text-align: center;
 }
+
 .img_content img {
   width: 60px;
   height: 60px;
@@ -111,9 +115,11 @@ nav li a:hover {
   justify-content: space-evenly;
   padding: 4rem;
 }
+
 .img-features {
   text-align: center;
 }
+
 .img-features img {
   width: 10rem;
   height: 10rem;
@@ -124,6 +130,7 @@ nav li a:hover {
   font-size: var(--normal);
   padding: 10%;
 }
+
 .features-content h3 {
   text-align: center;
 }
@@ -135,27 +142,33 @@ nav li a:hover {
   display: flex;
   justify-content: space-evenly;
 }
+
 .mention-content {
   margin: -3rem;
   box-shadow: var(--box);
   width: 23rem;
 }
+
 .img-mentions {
   text-align: center;
   object-fit: cover;
 }
+
 .img-mentions img {
   width: 23rem;
   height: 15rem;
 }
+
 .mention-title {
   text-align: center;
   margin-top: 0;
 }
+
 .mention-content:hover {
   background: #fff;
   color: var(--blue-solid);
 }
+
 /* -------Footer----- */
 
 footer {
