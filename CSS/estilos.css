@@ -20,10 +20,13 @@
 
 html,
 body {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   font-size: var(--normal);
   font-family: "Open Sans", sans-serif;
+}
+p {
+  font-size: var(--normal);
 }
 
 /* NAV------------------------- */
@@ -31,9 +34,16 @@ nav {
   display: flex;
   background-color: var(--dark-color);
   padding: var(--space);
+  width: 100%;
+  min-height: 60px;
   color: var(--white-color);
   justify-content: space-between;
   align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: var(--dark-color);
+  font-size: var(--normal);
 }
 
 nav ul {
@@ -53,6 +63,9 @@ nav li a {
 nav li a:hover {
   color: var(--white-color);
 }
+hr {
+  opacity: 0.2;
+}
 
 /* Main section---------------------- */
 
@@ -63,36 +76,40 @@ nav li a:hover {
 
 .products {
   background-image: url("../images/sombra.svg");
-  max-height: 50px;
+  padding: 15%;
+  height: 95px;
+  display: flex;
   background-size: cover;
   background-position: center top;
-  padding: 10%;
-  display: flex;
-  justify-content: center;
+  background-repeat: no-repeat;
 }
 
 .product {
-  padding: var(--space);
-  margin-top: -21rem;
-  width: 15rem;
-  height: 20rem;
+  padding: 80px;
+  margin-top: -226px;
 }
 
-.product .content {
-  background-color: var(--white-color);
-  padding: var(--space);
-  box-shadow: var(--box);
-  border-radius: 18px;
-}
-
-.img_content {
+.img_product {
   text-align: center;
 }
 
-.img_content img {
-  width: 60px;
-  height: 60px;
+.content {
+  padding: 20px;
+  background-color: var(--white-color);
+  border-radius: 18px;
+  box-shadow: var(--box);
 }
+
+.img_product img {
+  width: 12rem;
+  height: 12rem;
+}
+/* .content {
+  padding: 20px;
+  background: var(--white-color);
+  border-radius: 3px;
+  box-shadow: 0px 0 2px 1px #e6e5e9;
+} */
 
 .main_buttom {
   background-color: var(--blue-light);
@@ -113,7 +130,7 @@ nav li a:hover {
 .features {
   display: flex;
   justify-content: space-evenly;
-  padding: 4rem;
+  padding: 10%;
 }
 
 .img-features {
@@ -138,23 +155,39 @@ nav li a:hover {
 /* Main section-------------------- */
 
 .mentions {
-  padding: 60px;
   display: flex;
-  justify-content: space-evenly;
+  padding: 5%;
+  /* justify-content: space-evenly; */
 }
 
-.mention-content {
-  margin: -3rem;
+.mention img {
+  width: 100%;
+  /* margin: -3rem;
   box-shadow: var(--box);
-  width: 23rem;
+  width: 23rem; */
+}
+.mention-title {
+  text-align: center;
 }
 
-.img-mentions {
+.mention {
+  padding: var(--space);
+}
+.content-mention {
+  box-shadow: var(--box);
+}
+.mention .text {
+  padding: var(--space);
+  text-align: justify;
+}
+
+/* .content-mentions {
+  width: 100%;
   text-align: center;
   object-fit: cover;
 }
 
-.img-mentions img {
+.content-mentions img {
   width: 23rem;
   height: 15rem;
 }
@@ -162,9 +195,9 @@ nav li a:hover {
 .mention-title {
   text-align: center;
   margin-top: 0;
-}
+} */
 
-.mention-content:hover {
+.mention:hover {
   background: #fff;
   color: var(--blue-solid);
 }
