@@ -25,6 +25,7 @@ body {
   font-size: var(--normal);
   font-family: "Open Sans", sans-serif;
 }
+
 p {
   font-size: var(--normal);
 }
@@ -40,6 +41,7 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+
 nav a {
   text-decoration: none;
   color: var(--dark-color);
@@ -63,6 +65,7 @@ nav li a {
 nav li a:hover {
   color: var(--white-color);
 }
+
 hr {
   opacity: 0.2;
 }
@@ -104,6 +107,7 @@ hr {
   width: 12rem;
   height: 12rem;
 }
+
 /* .content {
   padding: 20px;
   background: var(--white-color);
@@ -166,6 +170,7 @@ hr {
   box-shadow: var(--box);
   width: 23rem; */
 }
+
 .mention-title {
   text-align: center;
 }
@@ -173,9 +178,11 @@ hr {
 .mention {
   padding: var(--space);
 }
+
 .content-mention {
   box-shadow: var(--box);
 }
+
 .mention .text {
   padding: var(--space);
   text-align: justify;
