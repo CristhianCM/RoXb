@@ -31,9 +31,15 @@ p {
 }
 label {
   font-size: 17px;
-  padding-bottom: 5px;
+  padding-top: 5px;
 }
-
+#contenedor {
+  width: 90%;
+  max-width: 1200px;
+  overflow: hidden;
+  margin: auto;
+  padding: 60px 0;
+}
 /* NAV------------------------- */
 nav {
   display: flex;
@@ -49,7 +55,11 @@ nav {
 nav a {
   text-decoration: none;
   color: var(--dark-color);
-  font-size: var(--normal);
+  font-size: 1.4rem;
+}
+
+.nav_options {
+  margin-right: 60px;
 }
 
 nav ul {
@@ -67,7 +77,7 @@ nav li a {
 }
 
 nav li a:hover {
-  color: var(--white-color);
+  color: rgba(199, 195, 195, 0.918);
 }
 
 hr {
@@ -83,7 +93,7 @@ hr {
 
 .products {
   background-image: url("../images/sombra.svg");
-  padding: 15%;
+  padding: 18%;
   height: 95px;
   display: flex;
   background-size: cover;
@@ -229,11 +239,20 @@ hr {
   max-width: 100%;
   text-align: center;
 }
-.venta input {
-  width: 100%;
+input.data {
+  margin-bottom: 5px;
+}
+
+.data {
+  width: 99%;
   height: 35px;
-  border-radius: 16;
+  border-radius: 16px;
   border: 1px solid gray;
+  box-sizing: border-box;
+  font-size: 17px;
+}
+input {
+  margin-top: 10px;
 }
 
 /* --------------------------------------------Footer*/

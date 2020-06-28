@@ -78,6 +78,35 @@
     font-size: 2rem;
     color: var(--blueSolid);
   }
+  /* ------------------------Venta */
+  .container {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .modulo_pago {
+    display: grid;
+    grid-template-columns: 70px 1fr 70px;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      ". producto ."
+      " . cuenta .";
+  }
+  .venta {
+    grid-column: cuenta;
+    padding: 20px;
+    grid-area: cuenta;
+  }
+  .modulo-pago-images {
+    padding: 25%;
+  }
+  label {
+    font-size: 1.3rem;
+    padding-top: 5px;
+  }
+  .data {
+    width: 97%;
+    height: 30px;
+  }
 }
 
 @media (max-width: 425px) {
@@ -97,6 +126,21 @@
   .contact-us {
     width: 90%;
   }
+  /* ------------------venta */
+  .modulo_pago {
+    grid-template-columns: 20px 1fr 20px;
+  }
+  .modulo-pago-images {
+    padding: 20%;
+  }
+  label {
+    font-size: 1.3rem;
+    padding-top: 5px;
+  }
+  .data {
+    width: 97%;
+    height: 30px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -110,5 +154,19 @@
 
   .product {
     margin-top: -2rem;
+  }
+  /* ------------------venta */
+  .modulo_pago {
+    grid-template-columns: 30px 1fr 30px;
+  }
+  .modulo-pago-images {
+    padding: 10%;
+  }
+  .venta label {
+    font-size: 1.2rem;
+  }
+  .data {
+    width: 96%;
+    height: 30px;
   }
 }

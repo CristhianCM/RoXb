@@ -20,7 +20,7 @@
   /* padding-bottom: 20%; */
 }
 
-.modulo_pago-ventas .container-1 {
+.container-1 {
   display: grid;
   grid-template-columns: 40% 1fr 1fr;
   grid-template-areas: "figura1  desc1 desc1";
@@ -36,6 +36,9 @@
   text-align: justify;
   grid-area: desc1;
 }
+/* .description-1 h4 {
+  font-size: ;
+} */
 .container-2 {
   display: grid;
   grid-template-columns: 1fr 1fr 40%;
@@ -68,6 +71,17 @@
   text-align: justify;
   grid-area: desc3;
 }
+.description-1 h4 {
+  margin: 0;
+}
+
+.description-2 h4 {
+  margin: 0;
+}
+.description-3 h4 {
+  margin: 0;
+}
+
 h4 {
   font-size: 3rem;
   color: var(--blueSolid);
