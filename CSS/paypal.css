@@ -1,0 +1,22 @@
+body {
+  background-color: var(--dark-color);
+  text-align: center;
+  color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.content_paypal img {
+  width: 15rem;
+}
+.content_paypal a {
+  color: aqua;
+  font-style: normal;
+}
+.content_paypal h3 {
+  font-size: 2rem;
+}
+.content_paypal p {
+  font-size: 1.2rem;
+}
