@@ -1,0 +1,186 @@
+:root {
+  --blueSolid: #116696;
+}
+
+.producctGrill {
+  display: grid;
+  max-width: 1024px;
+  margin: auto;
+}
+.titleDes h1 {
+  font-size: 4rem;
+  color: #9d9faa;
+  padding-left: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.imageContainer img {
+  width: auto;
+  /* padding-bottom: 20%; */
+}
+
+.modulo_pago-ventas .container-1 {
+  display: grid;
+  grid-template-columns: 40% 1fr 1fr;
+  grid-template-areas: "figura1  desc1 desc1";
+  gap: 10px;
+  margin-bottom: 10%;
+}
+.imageContainer1 {
+  padding: 10px;
+  grid-area: figura1;
+}
+.description-1 {
+  padding: 21%;
+  text-align: justify;
+  grid-area: desc1;
+}
+.container-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 40%;
+  grid-template-areas: " desc2 desc2 figura2";
+  gap: 10px;
+  margin-bottom: 10%;
+}
+.imageContainer2 {
+  padding: 10px;
+  grid-area: figura2;
+}
+.description-2 {
+  padding: 21%;
+  text-align: justify;
+  grid-area: desc2;
+}
+.container-3 {
+  display: grid;
+  grid-template-columns: 40% 1fr 1fr;
+  grid-template-areas: "figura3  desc3 desc3";
+  gap: 10px;
+  margin-bottom: 10%;
+}
+.imageContainer3 {
+  padding: 10px;
+  grid-area: figura3;
+}
+.description-3 {
+  padding: 21%;
+  text-align: justify;
+  grid-area: desc3;
+}
+h4 {
+  font-size: 3rem;
+  color: var(--blueSolid);
+}
+h4:hover {
+  color: var(--blue-light);
+}
+p {
+  font-size: 4rem;
+  color: black;
+}
+
+/* -----------------------------------------------Ventas----- */
+.container {
+  display: grid;
+  max-width: 1024px;
+  margin: auto;
+  /* grid-template-columns: 50% 25% 40% 50%; */
+}
+.modulo_pago {
+  display: grid;
+  grid-template-columns: 1fr 20% 40% 1fr;
+  grid-template-areas: ". producto cuenta .";
+  gap: 10px;
+  margin-top: 10px;
+}
+.producto {
+  padding: 10px;
+  grid-area: producto;
+}
+.modulo-pago-images {
+  padding: 20px;
+}
+.venta {
+  padding: 10px;
+  grid-area: cuenta;
+}
+/* .product_2,
+.product_3 {
+  flex-flow: row-reverse;
+} */
+
+/* .col-1 {
+  width: 8.333333333333333%;
+}
+.col-2 {
+  width: 16.66666666666667%;
+}
+.col-3 {
+  width: 24.99999999‬999999%;
+}
+.col-4 {
+  width: 33.33333333333333%;
+}
+.col-5 {
+  width: ‭41.66666666666667%;
+}
+.col-6 {
+  width: 49.99999999999998‬%;
+}
+.col-7 {
+  width: 58.33333333333331‬%;
+}
+.col-8 {
+  width: 66.66666666666664‬%;
+}
+.col-9 {
+  width: 74.99999999999997%;
+}
+.col-10 {
+  width: 83.33333333333333‬%;
+}
+.col-11 {
+  width: 91.66666666666666‬%;
+}
+.col-12 {
+  width: 100%;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  padding: 10px;
+}
+
+@media (max-width: 900px) {
+  .row {
+    display: inherit;
+  }
+
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 {
+    width: 100%;
+  }
+} */
+
+/*container > row > column */

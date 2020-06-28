@@ -57,6 +57,27 @@
   .social-media {
     width: 100%;
   }
+  /* --------Producto------- */
+  .titleDes h1 {
+    font-size: 3rem;
+  }
+
+  .container-1 {
+    grid-template-columns: 1fr;
+    grid-template-areas: "desc1 desc1";
+  }
+  .container-2 {
+    grid-template-columns: 1fr;
+    grid-template-areas: "desc2 desc2";
+  }
+  .container-3 {
+    grid-template-columns: 1fr;
+    grid-template-areas: "desc3 desc3";
+  }
+  h4 {
+    font-size: 2rem;
+    color: var(--blueSolid);
+  }
 }
 
 @media (max-width: 425px) {
