@@ -21,4 +21,4 @@ Buy a product on the page through PayPal and enjoy the experience in this test p
 
 Visit [GitHub_Page_RoXB](https://cristhiancm.github.io/RoXb/)
 
-![Image text]()
+![Image text](https://github.com/CristhianCM/RoXb/blob/main/images/Roxb_Finish.png)
