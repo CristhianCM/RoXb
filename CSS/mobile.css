@@ -1,3 +1,9 @@
+@media (max-width: 900px) {
+  .product {
+    padding: 35px;
+  }
+}
+
 @media (max-width: 600px) {
   .products {
     display: inherit;
@@ -125,6 +131,10 @@
 
   .contact-us {
     width: 90%;
+  }
+
+  .content {
+    margin: 15px;
   }
   /* ------------------venta */
   .modulo_pago {
